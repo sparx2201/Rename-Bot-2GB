@@ -63,10 +63,11 @@ class Txt(object):
 
 ✏️ <b><u>How To Rename A File</u></b>
 
-➪ Send Any File And Type New File Name And Select The Format [ Document, Video, Audio ].           
+➪ Send Any File And Type New File Name And Select The Format [ Document, Video, Audio ].
+"""
 
 
-    PROGRESS_BAR = """
+    PROGRESS_BAR = """\n
 <b>🔗 Size :</b> {1} | {2}
 ️<b>✅ Done :</b> {0}%
 <b>⚡️ Speed :</b> {3}/s
