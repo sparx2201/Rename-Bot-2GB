@@ -67,10 +67,10 @@ class Txt(object):
 
 
     PROGRESS_BAR = """\n
- <b>🔗 Size :</b> {1} | {2}
-️ <b>✅ Done :</b> {0}%
- <b>⚡️ Speed :</b> {3}/s
-️ <b>🕰 ETA :</b> {4}
+<b>🔗 Size :</b> {1} | {2}
+️<b>✅ Done :</b> {0}%
+<b>⚡️ Speed :</b> {3}/s
+️<b>🕰 ETA :</b> {4}
 """
 
 
