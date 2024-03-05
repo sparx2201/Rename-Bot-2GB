@@ -66,7 +66,7 @@ class Txt(object):
 ➪ Send Any File And Type New File Name And Select The Format [ Document, Video, Audio ].           
 
 
-    PROGRESS_BAR = """\n
+    PROGRESS_BAR = """
 <b>🔗 Size :</b> {1} | {2}
 ️<b>✅ Done :</b> {0}%
 <b>⚡️ Speed :</b> {3}/s
