@@ -11,8 +11,8 @@ async def start(client, message):
     user = message.from_user
     await jishubotz.add_user(client, message)                
     button = InlineKeyboardMarkup([
-        [InlineKeyboardButton('⚙️ About', callback_data='about'),
-        InlineKeyboardButton('⚔️ Help', callback_data='help')]
+        [InlineKeyboardButton('⚔️ About', callback_data='about'),
+        InlineKeyboardButton('⚙️ Help', callback_data='help')]
     ])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)       
@@ -28,8 +28,8 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.START_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup([
-        [InlineKeyboardButton('⚙️ About', callback_data='about'),
-        InlineKeyboardButton('⚔️ Help', callback_data='help')]
+        [InlineKeyboardButton('⚔️ About', callback_data='about'),
+        InlineKeyboardButton('⚙️ Help', callback_data='help')]
     ])
         )
     elif data == "help":
