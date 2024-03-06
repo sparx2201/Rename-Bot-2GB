@@ -42,7 +42,7 @@ class Txt(object):
     ABOUT_TXT = """
 ╭───────────────⍟
 ├<b> My Name</b> : 𝐂𝐨𝐝𝐞-𝐀𝟏𝟒-𝐑
-├<b> Created by : 𝘈𝘑
+├<b> Created by</b> : 𝘈𝘑
 ├<b> Library</b> : <a href=https://github.com/pyrogram>Pyrogram</a>
 ├<b> Language</b> : <a href=https://www.python.org>Python 3</a>
 ├<b> Database</b> : <a href=https://cloud.mongodb.com>Mongo DB</a>
