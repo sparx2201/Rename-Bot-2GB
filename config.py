@@ -46,7 +46,6 @@ class Txt(object):
 ├<b> Library</b> : <a href=https://github.com/pyrogram>Pyrogram</a>
 ├<b> Language</b> : <a href=https://www.python.org>Python 3</a>
 ├<b> Database</b> : <a href=https://cloud.mongodb.com>Mongo DB</a>
-├<b> Build Version</b> : <a href=https://instagram.com/jishu.editz>Rename v4.5.0</a></b>     
 ╰───────────────⍟
 """
 
