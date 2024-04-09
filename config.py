@@ -26,7 +26,7 @@ class Config(object):
 
 class Txt(object):
     # part of text configuration
-    START_TXT = """Hey {} <b>
+    START_TXT = """<b> Hey {} </b>
     
 ➻ Tʜɪꜱ Iꜱ Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀꜰᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ.⚡️
 
@@ -36,7 +36,7 @@ class Txt(object):
 
 ➻ Tʜɪꜱ Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛꜱ Cᴜꜱᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜꜱᴛᴏᴍ Cᴀᴘᴛɪᴏɴ.✏️
 
-</b>"""
+"""
 
     
     ABOUT_TXT = """
@@ -58,9 +58,9 @@ class Txt(object):
 
 📜 <b><u>How To Set Custom Caption</u></b>
 
-▸ /set_caption - Use This Command To Set A Custom Caption
-▸ /see_caption - Use This Command To View Your Custom Caption
-▸ /del_caption - Use This Command To Delete Your Custom Caption
+▸ /set_caption - To Set A Custom Caption
+▸ /see_caption - To View Your Custom Caption
+▸ /del_caption - To Delete Your Custom Caption
 ▸ Example - <code>/set_caption 📕 Name ➠ : {filename}
 
 🔗 Size ➠ : {filesize} 
