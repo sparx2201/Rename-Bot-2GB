@@ -34,7 +34,7 @@ class Txt(object):
 
 ➻ Yᴏᴜ Cᴀɴ Aʟꜱᴏ Cᴏɴᴠᴇʀᴛ Vɪᴅᴇᴏ Tᴏ Fɪʟᴇ Aɴᴅ Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ.📁»🎬
 
-➻ Tʜɪꜱ Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛꜱ Cᴜꜱᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜꜱᴛᴏᴍ Cᴀᴘᴛɪᴏɴ.✏️
+➻ Tʜɪꜱ Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛꜱ Cᴜꜱᴛᴏᴍ Pʀᴇғɪx, Sᴜғғɪx, Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴀᴘᴛɪᴏɴ.✏️
 
 """
 
@@ -62,14 +62,21 @@ class Txt(object):
 ▸ /see_caption - To View Your Custom Caption
 ▸ /del_caption - To Delete Your Custom Caption
 ▸ Example - <code>/set_caption 📕 Name ➠ : {filename}
-
 🔗 Size ➠ : {filesize} 
-
 🕰 Duration ➠ : {duration}</code>
 
 ✏️ <b><u>How To Rename A File</u></b>
 
 ▸ Send Any File And Type New File Name And Select The Format [ Document, Video, Audio ].
+
+⚙ <b><u>Aᴅᴠᴀɴᴄᴇ Rᴇɴᴀᴍᴇ</u></b>
+/set_prefix - To Set Your Prefix
+/del_prefix - Delete Your Prefix
+/see_prefix - To See Your Prefix
+/set_suffix - To Set Your Suffix
+/see_suffix - To See Your Suffix
+/del_suffix - Delete Your Suffix
+
 """
 
 
